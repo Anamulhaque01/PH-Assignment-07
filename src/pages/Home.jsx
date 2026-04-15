@@ -49,7 +49,7 @@ const Home = () => {
                 { label: 'Need Attention', val: friends.length },
                 { label: 'Interactions This Month', val: '12' }
             ].map((stat, i) => (
-                <div key={i} className="py-10 bg-white rounded-2xl border shadow-sm">
+                <div key={i} className="py-10 bg-white rounded-2xl shadow-sm">
                 <p className="text-2xl font-bold text-[#244D3F]">{stat.val}</p>
                 <p className="text-sm text-gray-500">{stat.label}</p>
                 </div>

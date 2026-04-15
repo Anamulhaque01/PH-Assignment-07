@@ -28,5 +28,6 @@ export const router = createBrowserRouter([
             element: <Stats />,
         },
         ],
+        errorElement: <NotFound></NotFound>
     },
 ]);
