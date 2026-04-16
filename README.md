@@ -1,16 +1,25 @@
-# React + Vite
+👥 KeenKeeper — Keep Your Friendships Alive
+KeenKeeper is a relationship management dashboard designed to help users maintain meaningful connections with friends and family. By tracking interaction frequency and setting contact goals, the app ensures that no important relationship falls through the cracks.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 Live Demo
+https://ph-assignment-07-rouge.vercel.app/
 
-Currently, two official plugins are available:
+🚀 Key Features
+Friendship Health Tracking: A visual dashboard that categorizes friends based on their "contact status" (on-track, almost due, or overdue) using color-coded cards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Interactive Timeline: A dedicated history log that automatically records every Call, Text, or Video interaction, allowing you to see your relationship history at a glance.
 
-## React Compiler
+Friendship Analytics: A data-driven stats page featuring a Pie Chart (via Recharts) that breaks down your interaction types, helping you understand how you stay connected.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Technologies Used
+Framework: React.js / Next.js
 
-## Expanding the ESLint configuration
+Routing: React Router DOM / Next.js App Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: Tailwind CSS
+
+Charts: Recharts
+
+Notifications: React-Toastify (or your preferred toast library)
+
+Deployment: Vercel / Netlify
